@@ -13,6 +13,9 @@ import sys
 import nsfg
 import thinkstats2
 
+import warnings
+warnings.filterwarnings('ignore')
+
 
 def ReadFemResp(dct_file='2002FemResp.dct',
                 dat_file='2002FemResp.dat.gz',
